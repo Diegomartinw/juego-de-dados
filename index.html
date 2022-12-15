@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  />
+</head>
+<body>
+    <img src="casino.gif" id="cartel">
+    <div id="casino">
+    <h1 class="animate__animated animate__flip">Jugamos dados</h1>
+    <p>Tenés un total de $500 para jugar. No hay mínimo</p>
+    <h4>Saldo actual</h4>
+    <input type="text" value="" id="saldo">
+    
+    <h4>Apuesta</h4>
+    <input type="text" name="" id="bet">
+    <h4>Número apostado</h4>
+    <input type="text" name="" id="numero" max="6" min="1">
+    <input type="button" value="Lanzo" onclick="lanzar()">
+    <h4>Salió el número</h4>
+    <input type="text" name="" id="resultado" readonly>
+    <h4>Resultado</h4>
+    <input type="text" name="" id="gano" readonly>
+    <input type="button" value="Me retiro" onclick="fin()">
+    </div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
